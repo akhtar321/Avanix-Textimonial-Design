@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+*{
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+    outline: none !important;
+}
+
+img{
+    max-width: 100%;
+}
+
+.avanixTestimonial{
+    padding: 100px 0px;
+    text-align: center;
+    background: #FBFBFB80;
+}
+
+.avanixTestimonial h2{
+    font-size: 40px;
+    color: #6a77bb;
+    margin: 0;
+    font-weight: 800;
+}
+    
+.avanixTestimonial p{
+    margin: 0px;
+}
+
+.testimonialSlider {
+    margin: 100px 50px;
+}
+
+.testimonialSlider figure{
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+    opacity: .5;
+}
+
+.testimonialSlider .slick-current figure{
+    opacity: 1;
+}
+
+.testimonial{
+    text-align: left;
+}
